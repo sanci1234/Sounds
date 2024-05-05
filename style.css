@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter",sans-serif;
+    background-color: rgb(77, 52, 145);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(196, 194, 171);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #410d16;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    box-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(161, 216, 21);
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.btn:focus{
+    outline: none;
+}
